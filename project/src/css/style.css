@@ -1,0 +1,365 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url("ProximaNova-Regular.eot");
+  src: url("ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("ProximaNova-Regular.woff") format("woff"), url("ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Extra Bold';
+  src: url("ProximaNova-Extrabld.eot");
+  src: url("ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("ProximaNova-Extrabld.woff") format("woff"), url("ProximaNova-Extrabld.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.button {
+  font-size: 22px;
+  color: #fff;
+  line-height: 27px;
+  background-color: #3345EB;
+  padding: 21px 80px;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: linear-gradient(102.57deg, #1D479B 17.41%, #3345EB 100%);
+  -webkit-box-shadow: 0px 5px 15px #1D479B;
+          box-shadow: 0px 5px 15px #1D479B;
+}
+
+.button__text {
+  text-decoration: none;
+  color: #fff;
+}
+
+.title {
+  font-family: 'Proxima Nova Extra Bold';
+  font-size: 40px;
+  line-height: 49px;
+  color: #1D479B;
+}
+
+/*Импорт стилей шапки*/
+.navbar {
+  background: #fff;
+}
+
+.navbar-block {
+  padding: 31px 0;
+}
+
+.navbar-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 31px;
+  border-bottom: 1px solid #B7B7B7;
+}
+
+.navbar-info__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-info__logo {
+  display: block;
+  margin-right: 10px;
+}
+
+.navbar-info__text {
+  color: #1D479B;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  font-family: 'Proxima Nova Extra Bold';
+}
+
+.navbar-info__light {
+  color: #B7B7B7;
+  margin-left: -23px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: 'Proxina Nova';
+  font-size: 20px;
+}
+
+.navbar-info__light:hover {
+  border-bottom: 1px solid #B7B7B7;
+  cursor: pointer;
+}
+
+.navbar-info__phone {
+  text-decoration: none;
+  color: #1D479B;
+}
+
+.navbar-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0;
+}
+
+.navbar-menu__item a {
+  text-decoration: none;
+  color: #1D479B;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 22px;
+  font-family: 'Proxina Nova';
+  font-size: 20px;
+}
+
+.navbar-menu__item a:hover {
+  border-bottom: 1px solid #1D479B;
+}
+
+/*Импорт стилей секции hero*/
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url("../img/main.png") no-repeat center;
+  padding-left: 40px;
+}
+
+.hero__title {
+  padding-top: 150px;
+  font-size: 45px;
+  line-height: 55px;
+  color: #fff;
+  font-family: 'Proxima Nova Extra Bold';
+}
+
+.hero__subtitle {
+  color: #fff;
+  display: block;
+  margin-top: 50px;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 77px;
+  font-family: 'Proxina Nova';
+  font-size: 20px;
+}
+
+.hero-project {
+  padding-bottom: 175px;
+}
+
+.hero-project__text {
+  color: #fff;
+  margin-right: 50px;
+}
+
+/*Импорт стилей design*/
+.design-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.design__item {
+  margin: 0;
+  max-width: 270px;
+  max-height: 270px;
+  border: 1px solid #B7B7B7;
+}
+
+.design__title {
+  text-align: center;
+  font-family: 'Proxima Nova Extra Bold';
+}
+
+.design__text {
+  width: 190px;
+  font-size: 23px;
+  line-height: 28px;
+  text-color: #000;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.design__image {
+  margin: auto;
+  display: block;
+  margin: 0 90px;
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+
+.design__box {
+  margin-top: 61px;
+  text-align: center;
+  margin-bottom: 74px;
+}
+
+/*Импорт стилей porfolio*/
+.portfolio {
+  padding-top: 52px;
+  background-color: #F2F2F2;
+}
+
+.portfolio__title {
+  margin-bottom: 57px;
+  text-align: center;
+  font-family: 'Proxima Nova Extra Bold';
+  color: #1D479B;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.slider__item {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-height: 330px;
+  max-width: 286px;
+}
+
+.slider-nav__left {
+  background: transparent url("../img/slider/left.svg") no-repeat center;
+  width: 46px;
+  height: 35px;
+  border: none;
+  margin-right: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.slider-nav__left span {
+  display: none;
+}
+
+.slider-nav__right {
+  background: transparent url("../img/slider/left.svg") no-repeat center;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  width: 46px;
+  height: 35px;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.slider-nav__right span {
+  display: none;
+}
+
+.owl-nav {
+  text-align: center;
+}
+
+/*Импорт стилей advantages*/
+.advantages {
+  background: url("../img/advantages/bg.png") no-repeat;
+  background-size: container;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.advantages::before {
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.advantages__title {
+  text-align: center;
+  margin: 56px 0;
+}
+
+.advantages-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.advantages__item {
+  border: 1px solid #000;
+  width: 260px;
+  height: 223px;
+  text-align: center;
+  background: rgba(29, 71, 155, 0.31);
+  margin: 15px 15px;
+}
+
+.advantages__subtitle {
+  font-size: 20px;
+  line-height: 24px;
+  max-width: 260px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'Proxina Nova';
+  font-size: 20px;
+}
+
+.advantages__text {
+  font-family: 'Proxina Nova';
+  font-size: 20px;
+  font-size: 18px;
+  line-height: 22px;
+  min-width: 236px;
+  margin: 0px 22px;
+  margin-bottom: 21px;
+}
+
+.advantages__image {
+  margin-top: 17px;
+}
+
+.advantages__button {
+  text-align: center;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=style.css.map */

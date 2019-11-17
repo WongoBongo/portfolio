@@ -1,0 +1,41 @@
+.advantages
+  background: url('../img/advantages/bg.png') no-repeat
+  background-size: container
+  color: $text-color
+  display: flex
+  &::before
+     background: rgba(0, 0, 0, 0.65);
+  &__title
+    text-align: center
+    margin: 56px 0
+    
+  &-box
+    display: flex
+    flex-wrap: wrap
+  &__item
+    border: 1px solid #000
+    width: 260px
+    height: 223px
+    text-align: center
+    background:  rgba(29, 71, 155, 0.31)
+    margin: 15px 15px
+  &__subtitle
+    font-size: 20px
+    line-height: 24px
+    max-width: 260px
+    margin-bottom: 5px
+    text-align: center
+    +reg
+  &__text
+    +reg
+    font-size: 18px
+    line-height: 22px
+    min-width: 236px
+    margin: 0px 22px
+    margin-bottom: 21px
+
+  &__image
+    margin-top: 17px
+  &__button
+    text-align: center
+    margin-top: 50px

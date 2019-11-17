@@ -1,0 +1,51 @@
+.portfolio
+
+  padding-top: 52px
+  background-color: #F2F2F2
+  &__title
+    
+    margin-bottom: 57px
+    text-align: center
+    +bold
+    color: $main-color
+    font-size: 40px
+    font-weight: 800
+.slider
+  display: flex
+  flex-wrap: wrap
+  &__item
+    position: relative
+    overflow: hidden
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    max-height: 330px
+    max-width: 286px
+  &-nav
+    &__left
+      background: transparent url('../img/slider/left.svg') no-repeat center 
+      width: 46px
+      height: 35px
+      border: none
+      margin-right: 15px
+      margin-top: 15px
+      cursor: pointer
+      
+      span
+        display: none
+    &__right
+      background: transparent url('../img/slider/left.svg') no-repeat center 
+      transform: rotate(180deg)  
+      width: 46px
+      height: 35px
+      border: none
+      margin-top: 15px
+      cursor: pointer
+    
+       
+      span
+        display: none
+.owl
+  &-nav
+    text-align: center
+      

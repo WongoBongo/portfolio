@@ -1,0 +1,51 @@
+.navbar
+  background: #fff
+  &-block
+    padding: 31px 0
+  &-info
+    display: flex
+    justify-content: space-between
+    padding-bottom: 31px
+    border-bottom: 1px solid $secondary
+    &__item
+      display: flex
+    &__logo
+      display: block
+      margin-right: 10px
+    &__text
+      color: $main-color
+      font-size: 18px
+      line-height: 22px
+      font-weight: 700
+      +bold
+      
+    &__light
+      color: $secondary
+      margin-left: -23px
+      transition: 0.2s
+      font-weight: 400
+      font-size: 18px
+      +reg
+      
+      &:hover
+        border-bottom: 1px solid $secondary
+        cursor: pointer
+    
+    &__phone
+      text-decoration: none
+      color: $main-color
+  &-menu
+    display: flex
+    justify-content: space-between
+    padding: 30px 0
+    &__item a
+      text-decoration: none
+      color: $main-color
+      transition: 0.2s
+      font-size: 22px
+      +reg
+      &:hover
+        border-bottom: 1px solid $main-color
+    
+      
+
